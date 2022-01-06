@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>大宁网站注册中心</h3>
+    <table width="600">
+        <!-- 第一行 -->
+        <tr>
+            <td>
+                <label for="username">账号：</label>
+            </td>
+            <td>
+                <input type="text" name="username" id="username">
+            </td>
+        </tr>
+        <!-- 第二行 -->
+        <tr>
+            <td>
+                <label for="password">密码：</label>
+            </td>
+            <td>
+                <input type="password" name="password" id="password">
+            </td>
+        </tr>
+        <!-- 第三行 -->
+        <tr>
+            <td>性别：</td>
+            <td>
+                <label for="man"> <img src="images/man.jpg" >男</label>
+                <input type="radio" name="sex" id="man">
+                <label for="woman"><img src="images/woman.jpg" >女</label>
+                <input type="radio" name="sex" id="woman">
+            </td>
+        </tr>
+        <!-- 第四行 -->
+        <tr>
+            <td>出生年月：</td>
+            <td>
+                <select>
+                        <option selected="selected">年份</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                </select>
+                <select>
+                            <option selected="selected">月份</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                </select>
+            </td>
+        </tr>
+        <!-- 第五行 -->
+        <tr>
+            <td>常用编程语言：</td>
+            <td>
+                <input type="checkbox" name="language">Python
+                <input type="checkbox" name="language">Java
+                <input type="checkbox" name="language">C language
+                <input type="checkbox" name="language">JavaScript
+                <input type="checkbox" name="language" checked="checked">PHP
+            </td>
+        </tr>
+        <!-- 第六行 -->
+        <tr>
+            <td><label for="info">个人介绍：</label></td>
+            <td>
+                <textarea id="info">个人简介</textarea>
+            </td>
+        </tr>
+        <!-- 第七行 -->
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="注册">
+            </td>
+        </tr>
+        <!-- 第八行 -->
+        <tr>
+            <td></td>
+            <td>
+                <a href="#">已有账号，立即登录</a>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

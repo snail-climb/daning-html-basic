@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 同级路径（以07-源文件路径.html这个文件为参照物，wangzai.jpg和该文件在同一个目录中，称为同级，此时路径可直接使用文件名） -->
+    <h3>1.同级路径的使用方式一</h3>
+    <img src="picture2.jpg">
+
+    <!-- ./表示根路径，及表示07-源文件路径.html这个文件所在的路径 -->
+    <h3>2.同级路径的使用方式二</h3>
+    <img src="./picture2.jpg">
+
+    <!-- 下一级路径（同理，07-源文件路径.html与images文件夹的路径为同级（在同一个目录中），而picture.jpg位于images文件夹中（及下一级）） -->
+    <h3>3.下一级路径的使用方式</h3>
+    <img src="images/picture1.jpg">
+
+    <!-- 上一级路径（通过../的方式进入上一级路径） -->
+    <h3>4.上一级路径的使用方式</h3>
+    <img src="../picture3.jpg">
+</body>
+
+</html>
